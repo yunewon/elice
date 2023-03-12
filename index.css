@@ -1,0 +1,61 @@
+* {
+    margin: 0;
+    padding: 0;
+} 
+main {
+    margin-left: 10px;
+}
+/* header */
+header {
+    background-color: gray;
+    margin: 0;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    }
+/* (필수) 메뉴바는 2개의 요소가 있는 리스트이며, 각 리스트는 링크입니다.
+리스트의 스타일은 지정하지 않으며, 가로로 배치되어야 합니다. */
+nav ul li {
+    padding: 15px;
+
+}
+/* 메뉴바와 메뉴의 위치가 이미지와 같이 설정되도록 마진과 패딩을 설정합니다. */
+
+nav ul li a {
+    color: white;
+    text-decoration: none; /* 밑줄 제거 */
+    transition-duration: 0.5s;
+}
+nav ul li a:hover { 
+    color: white;
+    background-color: darkgray;
+    letter-spacing: 4px;
+}
+
+
+/* main */
+article img:hover {
+    transform: scale(1.1);
+}
+h1, h3 {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+main ul, ol {
+    padding-left: 20px;
+}
+#detail {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 20px;
+
+}
+
+/* footer */
+footer {
+    margin: 10px 0px 0px 0px;
+    padding: 40px;
+    background-color: lightgray;
+}
